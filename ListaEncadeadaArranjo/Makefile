@@ -4,10 +4,10 @@
 PROJ_NAME=ListaEncadeadaArranjo
 
 # .c files
-C_SOURCE=$(wildcard ./*.c)
+C_SOURCE=$(wildcard ./source*.c)
 
 # .h files
-H_SOURCE=$(wildcard ./*.h)
+H_SOURCE=$(wildcard ./header*.h)
 
 # Object files
 OBJ=$(subst .c,.o,$(subst source,objects,$(C_SOURCE)))
